@@ -1,0 +1,38 @@
+{
+  "name": "redis-geospatial-example",
+  "version": "0.0.1",
+  "description": "Simple web project with node.js and redis geospatial commands. \\nFor illustration purpose only!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taronpa/redis-geospatial-example.git"
+  },
+  "keywords": [
+    "redis",
+    "geospatial",
+    "geoadd",
+    "geopos",
+    "georadius",
+    "georadiusbymember",
+    "node.js",
+    "transportation",
+    "express",
+    "mocha",
+    "google-maps"
+  ],
+  "author": "Taron Petrosyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taronpa/redis-geospatial-example/issues"
+  },
+  "homepage": "https://github.com/taronpa/redis-geospatial-example#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "redis": "^2.8.0",
+    "uws": "^8.14.1"
+  }
+}
